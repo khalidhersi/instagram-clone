@@ -1,0 +1,14 @@
+.NavBar{
+    display: flex;
+    justify-content: center;
+    &__logo{
+        max-height: 1rem;
+        width: auto;
+    }
+    &__list{
+
+        &__items{
+
+        }
+    }
+}

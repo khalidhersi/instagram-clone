@@ -10,10 +10,10 @@ import user from "../../assets/images/user.png";
 
 const Nav = () => {
   return <div className='NavBar'>
-          <img src={instaLogo} alt="insta Logo" className='NavBar__logo'/>
     <ul className='NavBar__list'>
+    <h1 className='NavBar__logo '>𝓘𝓷𝓼𝓽𝓪𝓰𝓻𝓪𝓶</h1>
       <img src={home} alt="home logo" className='NavBar__list__items'/>
-      <img src={directMessage} alt="directMessage logo" className='NavBar__items'/>
+      <img src={directMessage} alt="directMessage logo" className='NavBar__list__items'/>
       <img src={more} alt="more logo" className='NavBar__list__items'/>
       <img src={broadcast} alt="broadcast logo" className='NavBar__list__items'/>
       <img src={heart} alt="heart logo" className='NavBar__list__items'/>

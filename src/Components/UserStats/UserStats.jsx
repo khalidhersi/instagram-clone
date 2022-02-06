@@ -1,8 +1,10 @@
 import React from 'react';
+import "./UserStats.scss";
+
 
 const UserStats = () => {
-  return <div>
-      works
+  return <div className='user-stats'>
+
   </div>;
 };
 

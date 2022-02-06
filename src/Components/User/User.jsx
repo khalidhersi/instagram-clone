@@ -1,6 +1,7 @@
 import React from 'react';
 import "./User.scss";
 import UserInfo from "../UserInfo/UserInfo";
+import UserAlbums from "../UserAlbums/UserAlbums";
 
 const User = () => {
   return <div className='user'>

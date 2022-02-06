@@ -2,6 +2,8 @@ import React from 'react';
 import "./User.scss";
 import UserInfo from "../UserInfo/UserInfo";
 import UserAlbums from "../UserAlbums/UserAlbums";
+import UserStats from "../UserStats/UserStats";
+
 
 const User = () => {
   return <div className='user'>
@@ -13,6 +15,7 @@ const User = () => {
       <div className="user__suggestions"><i class="fal fa-angle-down"></i></div>
       <UserInfo/>
       <UserAlbums/>
+      <UserStats/>
   </div>;
 };
 

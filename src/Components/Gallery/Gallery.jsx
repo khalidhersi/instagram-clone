@@ -1,10 +1,11 @@
 import React from 'react';
 import GalleryBar from '../GalleryBar/GalleryBar';
+import GalleryMedia from '../GalleryMedia/GalleryMedia';
 
 const Gallery = () => {
   return <div className='gallery'>
-      works
       <GalleryBar/>
+      <GalleryMedia/>
   </div>;
 };
 

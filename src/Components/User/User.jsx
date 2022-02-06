@@ -11,6 +11,7 @@ const User = () => {
       <div className="user__follow">Follow</div>
       <div className="user__suggestions"><i class="fal fa-angle-down"></i></div>
       <UserInfo/>
+      <UserAlbums/>
   </div>;
 };
 

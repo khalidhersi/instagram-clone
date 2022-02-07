@@ -5,7 +5,10 @@ import UserAlbums from "../UserAlbums/UserAlbums";
 import UserStats from "../UserStats/UserStats";
 
 
-const User = () => {
+const User = (props) => {
+  const {aboutMe, followers,following, links, nickName,posts,profilePic,userName} = props;
+
+
   return <div className='user'>
       <img src="" alt="" className='user__profile-picture'/>
       <h2 className='user__name'>User Name</h2>

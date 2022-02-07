@@ -2,7 +2,6 @@ import React from 'react';
 
 const GalleryTiles = (props) => {
  const {tiles} = props;
-
  
 const tileJSX = 
   tiles.map(tile => (

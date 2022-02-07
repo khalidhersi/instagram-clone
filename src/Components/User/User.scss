@@ -1,4 +1,12 @@
-.User{
+.user{
     background-color: rgb(252, 252, 252);
     box-shadow: inset 0 0 8px 0 rgb(43, 43, 43);  
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+
+&__profile-picture{
+    border-radius: 100%;
+
+}
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import "./UserInfo.scss";
 
 const UserInfo = (props) => {
-  const {aboutMe, links, nickName,profilePic,userName} = props;
+  const {aboutMe, links, nickName} = props;
 
   return <div className='user-info'>
       <h4 className='user-info__name--secondary'>{nickName}</h4>

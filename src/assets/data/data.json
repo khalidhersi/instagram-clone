@@ -7,5 +7,6 @@
     "posts": "199",
     "followers": "9001",
     "following": "200",
-    "tiles": "ehdhdh"
+    "tiles": ["../images/home.png","../images/home.png","../images/home.png","../images/home.png"]
+    
 }

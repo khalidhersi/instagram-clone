@@ -1,0 +1,10 @@
+.user-info{
+    display: flex;
+    flex-direction: column;
+
+    &__links{
+        text-decoration: none;
+        color: rgb(87, 126, 255);
+        font-weight: bold;
+    }
+}

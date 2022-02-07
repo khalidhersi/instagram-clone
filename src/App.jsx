@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Nav/>
       <User profilePic={data.profilePic} userName={data.userName} />
-      <UserInfo nickname={data.nickName} aboutMe={data.aboutMe} links={data.links}/>
+      <UserInfo nickName={data.nickName} aboutMe={data.aboutMe} links={data.links}/>
       <UserAlbums/>
       <UserStats posts={data.posts} followers={data.followers} following={data.following} />
       <Gallery/>

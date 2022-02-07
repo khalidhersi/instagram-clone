@@ -6,14 +6,18 @@ const UserStats = (props) => {
 
   return (
     <div className="user-stats">
-      <h3 className="user-stats__posts--count">{posts}</h3>
-      <h3 className="user-stats__posts">Posts</h3>
-
-      <h3 className="user-stats__followers--count">{followers}</h3>
-      <h3 className="user-stats__followers">Followers</h3>
-
-      <h3 className="user-stats__following--count">{following}</h3>
-      <h3 className="user-stats__following">Following</h3>
+      <div className=" user-stats__containers">
+      <h3 className="user-stats__count">{posts}</h3>
+      <h3 className="user-stats__title">Posts</h3>
+      </div>
+      <div className="user-stats__containers">
+      <h3 className="user-stats__count">{followers}</h3>
+      <h3 className="user-stats__title">Followers</h3>
+      </div>
+      <div className="user-stats__containers">
+      <h3 className="user-stats__count">{following}</h3>
+      <h3 className="user-stats__title">Following</h3>
+    </div>
     </div>
   );
 };

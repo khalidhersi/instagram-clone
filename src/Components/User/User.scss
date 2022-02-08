@@ -56,3 +56,15 @@
     font-size: 1.1rem;
   }
 }
+
+@media screen and (min-width: 886px){
+  .user{
+  &__profile-picture {
+    max-height: 22vh;
+   position: relative;
+   left: 10%;
+   top: 2%;
+
+  }
+}
+}

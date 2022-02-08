@@ -57,6 +57,12 @@
       width: 80%;
       position: relative;
       left: 20%;
+      z-index: 1;
+      }
+      &__icon{
+        max-height: 3rem;
+        z-index: 1001;
+        color: red;
       }
     }
   }

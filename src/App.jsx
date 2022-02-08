@@ -7,16 +7,23 @@ import UserAlbums from "./Components/UserAlbums/UserAlbums";
 import UserStats from "./Components/UserStats/UserStats";
 import data from "./assets/data/data.json";
 
-
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Nav />
       <User profilePic={data.profilePic} userName={data.userName} />
-      <UserInfo nickName={data.nickName} aboutMe={data.aboutMe} links={data.links}/>
-      <UserAlbums/>
-      <UserStats posts={data.posts} followers={data.followers} following={data.following} />
-      <Gallery/>
+      <UserInfo
+        nickName={data.nickName}
+        aboutMe={data.aboutMe}
+        links={data.links}
+      />
+      <UserAlbums />
+      <UserStats
+        posts={data.posts}
+        followers={data.followers}
+        following={data.following}
+      />
+      <Gallery />
     </div>
   );
 }

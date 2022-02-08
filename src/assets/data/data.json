@@ -1,12 +1,16 @@
 {
-    "profilePic": "../images/home.png",
-    "userName": "kld",
-    "nickName": "khalid", 
-    "aboutMe": "loren ipsumsub hehjdrjfenfd jesnwj ndjwn djwjdja j jaja j",
-    "links": "/www.khalid-hersi.com",
-    "posts": "199",
-    "followers": "9001",
-    "following": "200",
-    "tiles": ["../images/home.png","../images/home.png","../images/home.png","../images/home.png"]
-    
+  "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsYoaQy78bYCBXb0sIbfgBzeIm6M56FMgDlo7izHxwgGyiE7Cg9MFPIE4mrIHKM3Dyf4M&usqp=CAU",
+  "userName": "kldddjdjjdjdj",
+  "nickName": "khalid",
+  "aboutMe": "loren ipsumsub hehjdrjfenfd jesnwj ndjwn djwjdja j jaja j",
+  "links": "/www.khalid-hersi.com",
+  "posts": "199",
+  "followers": "9001",
+  "following": "200",
+  "tiles": [
+    "../images/home.png",
+    "../images/home.png",
+    "../images/home.png",
+    "../images/home.png"
+  ]
 }

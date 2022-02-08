@@ -17,7 +17,7 @@ function App() {
         aboutMe={data.aboutMe}
         links={data.links}
       />
-      <UserAlbums />
+      {data.albums && <UserAlbums />}
       <UserStats
         posts={data.posts}
         followers={data.followers}

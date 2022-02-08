@@ -7,11 +7,13 @@ const UserInfo = (props) => {
 
   return (
     <div className="user-info">
-      <h4 className="user-info__name--secondary">{nickName}</h4>
+      <h4 className="user-info__nickname">{nickName}</h4>
       <p className="user-info__about-me">{aboutMe}</p>
-      <i className="user-info__more far fa-ellipsis-h" />
+      <div className="user-info__more">
+              <i className="fas fa-ellipsis-h" />
+      </div>
       <a href={links} className="user-info__links">
-        www.khalid-hersi.com
+        {links}
       </a>
     </div>
   );

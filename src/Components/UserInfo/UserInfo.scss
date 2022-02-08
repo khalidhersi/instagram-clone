@@ -1,10 +1,25 @@
 .user-info {
   display: flex;
   flex-direction: column;
+  padding: 1.5rem;
+  width: 48%;
+    font-size: 1.2rem;
+
+&__nickname{
+    font-weight: 900;
+}
+
+  &__about-me{
+    font-weight: 600;
+    
+  }
+  &__more{
+
+  }
 
   &__links {
     text-decoration: none;
-    color: rgb(87, 126, 255);
+    color: rgb(79, 102, 206);
     font-weight: bold;
   }
 }

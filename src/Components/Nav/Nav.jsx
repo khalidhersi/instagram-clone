@@ -20,6 +20,10 @@ const Nav = () => {
         />
       </div>
       <ul className="navbar__list">
+      <div className="navbar__search-box">
+              <input className="navbar__search-box__input" type="text" placeholder="Search.."></input>
+              <i className="navbar__search-box__icon fa-solid fa-magnifying-glass"></i>
+      </div>
         <img src={home} alt="home logo" className="navbar__list__items" />
         <img
           src={directMessage}

@@ -1,8 +1,9 @@
 .user-stats {
-  box-shadow: inset 0.1rem 0 0.1rem 0 rgb(43, 43, 43);
+  box-shadow: inset 0 0 0.1rem 0 rgb(43, 43, 43);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 0.6rem;
   &__containers {
     display: flex;
     flex-direction: column;
@@ -14,4 +15,33 @@
   &__title {
     color: rgb(161, 161, 161);
   }
+}
+
+@media screen and (min-width: 886px){
+  .user-stats {
+    box-shadow: inset 0 0 0 0 rgb(43, 43, 43);
+    justify-content: space-evenly;
+    width: 52%;
+    position: relative;
+    bottom: 19%;
+    left: 30%;
+  
+    &__containers{
+      flex-direction: row;
+      gap: 0.3rem;
+      
+    }
+  }  
+}
+
+@media screen and (min-width: 1111px){
+  .user-stats {
+padding: 1rem;
+  
+    &__containers{
+      padding: 1rem;
+
+      
+    }
+  }  
 }

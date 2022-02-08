@@ -1,0 +1,13 @@
+.gallery__tiles{
+align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+&__tile{
+    max-height: 20vh;
+    width: auto;
+}
+
+}

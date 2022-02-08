@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../assets/data/data.json";
 import GalleryTiles from "../GalleryTiles/GalleryTiles";
+import "./GalleryMedia.scss";
 
 const GalleryMedia = () => {
   return (

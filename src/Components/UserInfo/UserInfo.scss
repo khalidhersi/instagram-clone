@@ -23,3 +23,11 @@
     font-weight: bold;
   }
 }
+
+@media screen and (min-width: 886px){
+    .user-info {
+    position: relative;
+  top: 2rem;
+  margin-left: 29%;
+}
+}
